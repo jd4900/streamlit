@@ -268,7 +268,7 @@ class PageTelemetryTest(DeltaGeneratorTestCase):
             "connection",
             # We need to ignore `dialog` because it is a decorator and, thus, cannot
             # be called like the other components.
-            "dialog",
+            "experimental_dialog",
             "experimental_connection",
             "spinner",
             "empty",

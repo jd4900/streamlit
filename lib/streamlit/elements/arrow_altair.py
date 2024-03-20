@@ -742,7 +742,6 @@ class ArrowAltairMixin:
             "arrow_scatter_chart", proto, add_rows_metadata=add_rows_metadata
         )
 
-    @gather_metrics("altair_chart")
     def altair_chart(
         self,
         altair_chart: alt.Chart,
